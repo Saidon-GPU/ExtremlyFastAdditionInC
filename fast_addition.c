@@ -10,7 +10,7 @@ int fast_addition(int a, int b) {
   if (SGN(x) < 0) --l;
   else ++l;
   
-  for (i = 0; i < ABS(b); i++ {
+  for (i = 0; i < ABS(b); i++) {
     res = res + l;
   }
 
