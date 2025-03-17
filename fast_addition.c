@@ -4,10 +4,10 @@
 #define SGN(x) ((x) < 0 ? -1 : 1)
 
 int fast_addition(int a, int b) {
-  const int l = 0;
+  int l = 0;
   int i, res = a;
 
-  if (SGN(x) < 0) --l;
+  if (SGN(b) < 0) --l;
   else ++l;
   
   for (i = 0; i < ABS(b); i++) {
