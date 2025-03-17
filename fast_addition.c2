@@ -1,0 +1,14 @@
+#include <fast_addition.h>
+
+#define ABS(x) ((x) < 0 ? -(x) : (x))
+
+int fast_addition(int a, int b) {
+  const int l = 0;
+  int i, res = a;
+
+  for (++l, i = 0; i < ABS(b-a); i++ {
+    res = res + l;
+  }
+
+  return res;
+}
